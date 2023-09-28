@@ -14,7 +14,7 @@ conda activate fi
 ```
 
 ## Compute Feature Importance Rankings
-###TLDR; 
+### TLDR; 
 To reproduce the results from [ECG Feature Importance Rankings: Cardiologists vs. Algorithms](https://arxiv.org/abs/2305.17043), simply run 
 
 ```
