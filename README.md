@@ -20,7 +20,7 @@ To reproduce the results from [ECG Feature Importance Rankings: Cardiologists vs
 ```
 for i in {1..5}
 do
-    python run_binary_feature_importance_experiments.py --output_dir "output${i}"
+    python code/run_binary_feature_importance_experiments.py --output_dir "output${i}"
 done
 ```
 Then, navigate through the `./scoring_algorithm.ipynb` notebook to generate all the tables presented in the study.
