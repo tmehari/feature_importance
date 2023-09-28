@@ -14,6 +14,17 @@ conda activate fi
 ```
 
 ## Compute Feature Importance Rankings
+###TLDR; 
+To reproduce the results from [ECG Feature Importance Rankings: Cardiologists vs. Algorithms](https://arxiv.org/abs/2305.17043), simply run 
+
+```
+for i in {1..5}
+do
+    python run_binary_feature_importance_experiments.py --output_dir "output${i}"
+done
+```
+Then, navigate through the `./scoring_algorithm.ipynb` notebook to generate all the tables presented in the study.
+<br>
 
 There are two different implementations for feature importance rankings:
 
